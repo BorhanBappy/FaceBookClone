@@ -1,10 +1,16 @@
-import Image from "next/image";
-import Topnap from "@/Componets/Header";
+import Header from "@/Componets/Header";
 
 export default function Home() {
   return (
     <div>
-      <main>Main</main>
+      
+      <Header />
+      {/* Header */}
+      <main>
+        {/* Sidebar */}
+        {/* Feed */}
+        {/* Widgets*/}
+      </main>
     </div>
   );
 }
